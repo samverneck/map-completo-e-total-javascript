@@ -1,8 +1,5 @@
 # map - completo e total- Javascript
 
-# Map
-
-Lembrando do [nosso material do workshop](https://github.com/Webschool-io/workshop-js-funcional-free#map) sobre `map`:
 
 > O `map` é um método que executa um **`callback`** para cada valor de um **`array`** modificando os mesmos, isso faz com que o **`map`** crie um novo **`array`** com os novos valores obtidos. Exemplo:
 
@@ -581,7 +578,7 @@ const map = (mapper, [head, ...tail]) =>
     : [] // stop
 ```
 
-Primeira coisa que devemos fazer é refatorar nossos parâmetros de entrada e **uma coisa impotantíssima: a condição de parada da função recursiva**
+Primeira coisa que devemos fazer é refatorar nossos parâmetros de entrada e **uma coisa importantíssima: a condição de parada da função recursiva**
 
 ```js
 const map = ([head, ...tail], fn) => {
@@ -670,4 +667,5 @@ Para criarmos aprendermos essa função foi necessário utilizarmos/conhecermos:
 - spread operator
 - if ternário
 - recursão
+
 
